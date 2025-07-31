@@ -42,7 +42,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
         toast.error(message, {
             style: {
                 backgroundColor: "#ff4d4f", // Bright red background
-                color: "#ffffff", // White text
+                color: "#000000", // White text
                 fontWeight: "bold", // Bold text for emphasis
             },
         });
